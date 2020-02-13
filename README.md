@@ -6,7 +6,7 @@
 - Location in repo: [01_Monday/travisGettingStarted](01_Monday/travisGettingStarted)
 
 - Link to assignment: [REST, JPA, Test and CI with our start code](https://docs.google.com/document/d/1X3fK_9k2x4nImWI66EGrKbN0bOYXPRAepmGPEc-crHU/edit)
-- Location in repo: [01_Monday/week03-friday](01_Monday/week03-friday) - *also used as backend for the friday assignment as well as for the test-assignment tomorrow*
+- Location in repo: [01_Monday/week03-Friday](01_Monday/week03-friday) - *also used as backend for the friday assignment as well as for the test-assignment tomorrow*
 
 #### 11-02-2020 - Testing a Rest API
 - Link to assignments: [Testing REST-endpoints](https://docs.google.com/document/d/1ukf16bSqAso0XBubaGv1InwBfl5o5987JwWZIiN7prM/edit)
@@ -31,7 +31,7 @@
 For the Javascript driven frontend I decided to implement a React application in order to test out hooks and stateless functional components for some personal projects.
 The implementation of this, however, came with some challanges.
 
-The backend with the rest API's is deployed to tomcat at [madsbrandt.codes](madsbrandt.codes)  with source code here: [01_Monday/week03-friday](01_Monday/week03-friday). 
-The React application is deployed to Heroku [here](https://cph-3sem-week3-friday.herokuapp.com/) and the source code can be found [here](05_Friday/rest-movie-ui)
+The backend with the rest API's is deployed to tomcat at [madsbrandt.codes](madsbrandt.codes)  with source code here: [01_Monday/week03-Friday](01_Monday/week03-friday). 
+The React application is deployed to Heroku [here](https://cph-3sem-week3-friday.herokuapp.com/) and the source code can be found here: [05_Friday/rest-movie-ui](05_Friday/rest-movie-ui)
 This gave some issues with CORS. 
 I managed to resolve some of them, so movies is fetched from the tomcat server on mount, however some functionality, like voting and creating, is still limited due to CORS-issues. 
